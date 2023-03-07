@@ -51,15 +51,15 @@ Object  => object */
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 
-//Stack(Primitive) , Heap (Non - Primitive)
+//Stack(Primitive)- will give copy(changes are not in original value , but in copy) , Heap (Non - Primitive) - will give reference(changes are in original value)
 
 let myYoutubename = "chai aur biscuits"
 
 let anotherName = myYoutubename
 anotherName = "chai aur coffee"
 
-console.log(myYoutubename);
-console.log(anotherName);
+console.log(myYoutubename);//chai aur biscuits
+console.log(anotherName);// chai aur coffee
 
 let userOne = {
     email: "user@google.com",
@@ -70,5 +70,5 @@ let userTwo = userOne
 
 userTwo.email = "keshav@google.com"
 
-console.log(userOne.email);
-console.log(userTwo.email);
+console.log(userOne.email); //keshav@google.com
+console.log(userTwo.email); //keshav@google.com

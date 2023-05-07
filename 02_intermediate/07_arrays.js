@@ -8,15 +8,15 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 // Array methods
 
-// myArr.push(6)
+// myArr.push(6) - add element at the end of array
 // myArr.push(7)
-// myArr.pop()
+// myArr.pop() - removes end value
 
-// myArr.unshift(9)
-// myArr.shift()
+// myArr.unshift(9) - add new value at front of array
+// myArr.shift() - removes new value at first position
 
 // console.log(myArr.includes(9));
-// console.log(myArr.indexOf(9)); // -1
+// console.log(myArr.indexOf(9)); // -1 -> gives position of array , if there is no element , then it gives -1
 
 // const newArr = myArr.join()
 

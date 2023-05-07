@@ -1,8 +1,8 @@
-// Create an application with following roles:
-// admin - gets full access
-// subadmin - gets accesss to create/delete courses
-// testprep - gets access to create/delete tests
-// user - gets access to consume content
+/* Create an application with following roles:
+admin - gets full access
+subadmin - gets accesss to create/delete courses
+testprep - gets access to create/delete tests
+user - gets access to consume content */
 
 
 let user = "admin";

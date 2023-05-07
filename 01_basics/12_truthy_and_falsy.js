@@ -1,13 +1,13 @@
-// TODO: falsy
-// undefined
-// null
-// 0
-// ''
-// NaN
+/* TODO: falsy
+undefined
+null
+0
+''
+NaN */
 
 let user = "2";
 
-// === for strict check
+// === for strict check,checks type and value
 if (2 === user) {
     console.log("condition is true");
 }

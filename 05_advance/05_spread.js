@@ -14,13 +14,14 @@ let myA = [5, 4] // without changing function accessing values for arrays and ob
 
 console.log(sumOne(...myA)); // spread operator
 
-function sumTwo(...args) { // rest operator
+function sumTwo(a, b, ...args) { // rest operator
     console.log(args);
+    let multi = a * b;
     let sum = 0;
     for (const arg of args) {
         sum = sum + arg;
     }
-    return sum;
+    return [sum, multi];
 }
 
 console.log(sumTwo(2, 3, 1, 5, 7));

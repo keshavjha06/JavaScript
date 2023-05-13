@@ -1,4 +1,4 @@
-// function declarations are scanned and made available
+// function declarations are scanned and made available - Hoisting . But not arrow function ,arrow function will behave like variable . It will throw error like xyz() is not a function / undefined
 // variable declarations are scanned and made undefined
 
 tipper("80")
@@ -31,6 +31,19 @@ sayName();
 
 console.log(name);
 
+var x = 1
+a()
+b()
+console.log(x);
 
+function a() {
+    var x = 10;
+    console.log(x);
+}
+
+function b() {
+    var x = 100;
+    console.log(x);
+}
 
 

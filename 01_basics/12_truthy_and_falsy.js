@@ -1,9 +1,15 @@
-/* TODO: falsy
+/* falsy
+false , 0 , -0,
+BigInt 0n,
+"",
 undefined
 null
-0
 ''
 NaN */
+
+/* Truthy 
+"0" , 'false' , " " , [] , {} , function(){}
+*/
 
 let user = "2";
 
